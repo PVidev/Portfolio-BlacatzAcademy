@@ -11,7 +11,7 @@ html, body, h1, h2, h3, h4, h5, p, span, ul, li, hr, a{
 
 .header a{
     text-decoration: none;
-    color: grey;
+    color: white;
 }
 
 ul li a{
@@ -32,13 +32,17 @@ a:hover{
     box-sizing: border-box;
 }
 /*HEADER*/
-.header{
+.header {
     background-color: rgba(233,238,252,255);
     height: 70vh;
     margin-bottom: 10rem;
 }
 
-.header h1{
+.navbar {
+    color: var(--second-color);
+}
+
+.header h1 {
     font-size: 3rem;
 }
 
@@ -149,6 +153,10 @@ a:hover{
 .client{
     width: 38rem;
     background-color: white;
+}
+
+.client-border{
+    width: 3rem;
     border-top: 4px solid black;
 }
 
@@ -197,7 +205,7 @@ a:hover{
     }
 
     .header-menu{
-        grid-column: 1/13;
+        grid-column: 1/12;
         grid-row: 1/2;
         z-index: 50;
     }
@@ -277,9 +285,9 @@ a:hover{
         flex-direction: column;
         padding-top: 2rem;
     }
-    .client{
+    .line{
         width: 35rem;
-        margin-left: 5rem;
+        margin-left: 3rem;
     }
    
     .customer{
@@ -308,6 +316,7 @@ a:hover{
         left: 1rem;
         padding-top: 3.5rem;
     }
+
 /*CUSTOMER REVIEW MEDIA END*/
 
 }
