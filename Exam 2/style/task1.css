@@ -1,0 +1,313 @@
+:root{
+    --main-color: rgba(232,117,26,255);
+    --second-color: rgba(253,164,3,255);
+    --third-color: rgba(138,18,83,255);
+}
+
+html, body, h1, h2, h3, h4, h5, p, span, ul, li, hr, a{
+    margin: 0;
+    padding: 0;
+}
+
+.header a{
+    text-decoration: none;
+    color: grey;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+ul li{
+    list-style-type: none;
+    margin-top: 0.7rem;
+}
+
+a:hover{
+    opacity: 0.8;
+}
+
+*{
+    box-sizing: border-box;
+}
+/*HEADER*/
+.header{
+    background-color: rgba(233,238,252,255);
+    height: 70vh;
+    margin-bottom: 10rem;
+}
+
+.header h1{
+    font-size: 3rem;
+}
+
+.header h1 span{
+    color: var(--second-color)
+}
+
+.header h1 p{
+    color: var(--main-color);
+}
+
+.main-button{
+    background: none;
+    border: 2px solid var(--main-color);
+    border-radius: 2rem;
+    padding: 0.5rem 2rem;
+    color: var(--main-color);
+}
+
+.second-button{
+    background: var(--third-color);
+    border: none;
+    padding: 0.5rem 9rem;
+    color: white;
+
+}
+
+.search-form{
+    margin-top: 6rem;
+    background-color: white;
+    box-shadow: 0 0 15px 0 grey;
+}
+/*HEADER END*/
+
+/*ABOUT US*/
+.borders{
+    border-left: 0.6rem solid var(--main-color);
+}
+/*ABOUT US END*/
+
+/*DAILY MOTIVATION*/
+/*DAILY MOTIVATION END*/
+
+/*PRICES*/
+.second-color{
+    background-color: var(--second-color);
+}
+.main-color{
+    background-color: var(--main-color);
+}
+
+.hr{
+    width: 2.5rem;
+    border: 0.15rem solid white;
+    margin: 0 auto;
+}
+
+.buy{
+    background-color: var(--second-color);
+    border: none;
+    border-radius: 2rem;
+    padding: 0.5rem 1.8rem;
+}
+/*PRICES END*/
+
+/*WHY CHOOSE US*/
+.choose-us{
+    background: var(--second-color);
+}
+
+.choose-us span:nth-child(1){
+    border-left: 0.6rem solid white;
+    color: white;
+}
+
+.fa{
+    font-size: 3rem;
+}
+
+.us-btn{
+    border: none;
+    border-radius: 2rem;
+    padding: 0.5rem 2.5rem;
+}
+/*WHY CHOOSE US END*/
+
+/*CUSTOMERS REVIEW*/
+.customer{
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-auto-rows: 0.5rem;
+}
+
+.empty{
+    grid-column: 4/7;
+    grid-row: 2/23;
+    background: var(--second-color);
+}
+
+.customer-img{
+    grid-column: 6/12;
+    grid-row: 3/23;
+    background-image: url(../images/pesho.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.client{
+    width: 38rem;
+    background-color: white;
+    border-top: 4px solid black;
+}
+
+.customer-btn-l, .customer-btn-r{
+    border: none;
+    border-radius: 50%;
+    padding: 1rem;
+    background: var(--second-color);
+    color: white;
+}
+/*CUSTOMERS REVIEW END*/
+
+/*CONTACT US*/
+.contact-us{
+    background: var(--second-color);
+}
+
+.contact-btn{
+    border: none;
+    border-radius: 2rem;
+    padding: 0.7rem 5rem;
+    background: var(--third-color);
+}
+
+.subscribe-btn{
+    border: none;
+    padding: 0.5rem 2.2rem;
+    background: var(--third-color);
+    color: white;
+}
+
+.footer-hr{
+    height: 0.5rem;
+    border-width: 2px;
+}
+/*CONTACT US END*/
+
+
+@media(min-width: 760px){
+/*HEADER MEDIA*/
+    .header{
+        background: none;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-auto-rows: 2rem;
+    }
+
+    .header-menu{
+        grid-column: 1/13;
+        grid-row: 1/2;
+        z-index: 50;
+    }
+
+    .header img{
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .header-motivation{
+        grid-column: 2/4;
+        grid-row: 4/8;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search-form{
+        grid-column: 3/10;
+        grid-row: 11/16;
+        z-index: 50;
+        background: white;
+        box-shadow: 0 0 15px 0 grey;
+    }
+
+    .d-md-flex{
+        height: 2rem;
+    }
+
+    .d-md-flex .second-button{
+        padding: 0.4rem 4rem;
+    }
+
+    #header-img{
+        background-image: url(../images/bg.jpg);
+        background-size: 100% 100%;
+        grid-column: 5/15;
+        grid-row: 1/15;
+    }
+
+    #motivation h1, p, .mt-5{
+        text-align: start;
+    }
+
+    #motivation h1{
+        font-size: 1.8rem;
+    }
+
+/*HEADER MEDIA END*/
+
+/*DAILY MOTIVATION MEDIA*/
+    .daily-motivation, p{
+        text-align: center;
+    }
+/*DAILY MOTIVATION MEDIA END*/
+
+/*CUSTOMER REVIEW MEDIA*/
+    .border{
+        display: grid;
+        grid-template-columns: repeat(30, 1fr);
+        grid-auto-rows: 1rem;
+        height: 18rem;
+        padding-left: 4rem;
+    }
+    .borders{
+        display: flex;
+        justify-content: center;
+    }
+
+    .pesho-row{
+        display: flex;
+    }
+    
+    .align-text{
+        display: flex;
+        flex-direction: column;
+        padding-top: 2rem;
+    }
+    .client{
+        width: 35rem;
+        margin-left: 5rem;
+    }
+   
+    .customer{
+        grid-column: 2/12;
+        grid-row: 0/1;
+        
+    }
+    
+
+    .empty{
+        grid-column: 5/10;
+        grid-row: 2/22;
+    }
+    .customer-img{
+        grid-column: 8/13;
+        grid-row: 5/24;
+        width: 7rem;
+    }
+
+    .buttons{
+        position: absolute;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        width: 100%;
+        left: 1rem;
+        padding-top: 3.5rem;
+    }
+/*CUSTOMER REVIEW MEDIA END*/
+
+}
