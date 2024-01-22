@@ -4,5 +4,4 @@
 ## 2nd step
 ### I use `react-router-dom` and `json-server` on this project and need to run `npm i`
 
-
-###I set my JSON server to port 3004
+I set my JSON server to port 3004
