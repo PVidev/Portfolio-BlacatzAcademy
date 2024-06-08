@@ -1,5 +1,7 @@
 # Portfolio-BlacatzAcademy Exams
-### <code style="color : aqua">• Exams - Web Design Advanced </code>
+### <code style="color : aqua">• Exam - Web Design Beginner </code>
+# ---------------------------------------------
+### <code style="color : aqua">• Exam 2 - Web Design Advanced </code>
 # ---------------------------------------------
 # React for beginners Exam
 # ---------------------------------------------
