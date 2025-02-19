@@ -1,13 +1,19 @@
-# Portfolio-BlacatzAcademy Exams
-### <code style="color : aqua">• Exam - Web Design Beginner </code>
-# ---------------------------------------------
-### <code style="color : aqua">• Exam 2 - Web Design Advanced </code>
-# ---------------------------------------------
-# React for beginners Exam
-# ---------------------------------------------
-### <code style="color : green">• React > Exam-Practice-Beginer - React Practical tasks from 1st to 6th + Theory questions from 1st to 10th </code>
-### <code style="color : red">• React > Exam-Project-Beginer - React Practical project </code>
-# ---------------------------------------------
-# React for Advanced Exam
-# ---------------------------------------------
-### <code style="color : gold">• Comming Soon </code>
+# Portfolio - BlacatzAcademy Exams
+
+## 📌 Web Design Exams
+### 🔹 Exam - Web Design Beginner
+### 🔹 Exam 2 - Web Design Advanced
+
+---
+
+## ⚛️ React for Beginners Exam
+### 🟢 React > **Exam-Practice-Beginner**  
+*Practical tasks from 1st to 6th + Theory questions from 1st to 10th*
+
+### 🔴 React > **Exam-Project-Beginner**  
+*Practical project*
+
+---
+
+## ⚛️ React for Advanced Exam
+### 🟡 **Coming Soon...**
